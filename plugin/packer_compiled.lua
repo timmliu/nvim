@@ -150,6 +150,11 @@ _G.packer_plugins = {
     path = "/Users/timm/.local/share/nvim/site/pack/packer/start/undotree",
     url = "https://github.com/mbbill/undotree"
   },
+  ["vim-better-whitespace"] = {
+    loaded = true,
+    path = "/Users/timm/.local/share/nvim/site/pack/packer/start/vim-better-whitespace",
+    url = "https://github.com/ntpeters/vim-better-whitespace"
+  },
   ["vim-fugitive"] = {
     loaded = true,
     path = "/Users/timm/.local/share/nvim/site/pack/packer/start/vim-fugitive",
