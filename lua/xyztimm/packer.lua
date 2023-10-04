@@ -47,5 +47,6 @@ return require('packer').startup(function(use)
 
   use('ntpeters/vim-better-whitespace')
 
+  use("terrortylor/nvim-comment")
 
 end)
