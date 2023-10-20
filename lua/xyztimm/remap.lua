@@ -35,10 +35,10 @@ vim.keymap.set("n", "<C-f>", "<cmd>silent !tmux neww tmux-sessionizer<CR>")
 vim.keymap.set("n", "<leader>f", vim.lsp.buf.format)
 
 -- quickfix
-vim.keymap.set("n", "<C-k>", "<cmd>cnext<CR>zz")
-vim.keymap.set("n", "<C-j>", "<cmd>cprev<CR>zz")
-vim.keymap.set("n", "<leader>k", "<cmd>lnext<CR>zz")
-vim.keymap.set("n", "<leader>j", "<cmd>lprev<CR>zz")
+vim.keymap.set("n", "<C-h>", "<cmd>cnext<CR>zz")
+vim.keymap.set("n", "<C-i>", "<cmd>cprev<CR>zz")
+vim.keymap.set("n", "<leader>h", "<cmd>lnext<CR>zz")
+vim.keymap.set("n", "<leader>i", "<cmd>lprev<CR>zz")
 
 -- start replacing the word at cursor
 vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
