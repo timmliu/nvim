@@ -175,6 +175,11 @@ _G.packer_plugins = {
     path = "/Users/timm/.local/share/nvim/site/pack/packer/start/rose-pine",
     url = "https://github.com/rose-pine/neovim"
   },
+  ["tabby.nvim"] = {
+    loaded = true,
+    path = "/Users/timm/.local/share/nvim/site/pack/packer/start/tabby.nvim",
+    url = "https://github.com/nanozuki/tabby.nvim"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/Users/timm/.local/share/nvim/site/pack/packer/start/telescope.nvim",
