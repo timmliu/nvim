@@ -63,6 +63,10 @@ return require('packer').startup(function(use)
 
   use('nanozuki/tabby.nvim')
 
+  use {'akinsho/git-conflict.nvim', tag = "*", config = function()
+    require('git-conflict').setup()
+  end}
+
   use({
     "kylechui/nvim-surround",
     tag = "*", -- Use for stability; omit to use `main` branch for the latest features
@@ -72,9 +76,5 @@ return require('packer').startup(function(use)
       })
     end
   })
-
-  use {'akinsho/git-conflict.nvim', tag = "*", config = function()
-    require('git-conflict').setup()
-  end}
 
 end)
