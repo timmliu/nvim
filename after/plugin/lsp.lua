@@ -18,6 +18,7 @@ require('mason-lspconfig').setup({
     'cssls',
 		'eslint',
 		'rust_analyzer',
+		'tflint',
 		'tsserver',
 	},
 	handlers = {
