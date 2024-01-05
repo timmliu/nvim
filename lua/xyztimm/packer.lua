@@ -82,4 +82,6 @@ return require('packer').startup(function(use)
     end
   })
 
+  use('chentoast/marks.nvim')
+
 end)
