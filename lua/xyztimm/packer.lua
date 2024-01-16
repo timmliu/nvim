@@ -84,4 +84,14 @@ return require('packer').startup(function(use)
 
   use('chentoast/marks.nvim')
 
+  use {
+    "chrisgrieser/nvim-scissors",
+    dependencies = "nvim-telescope/telescope.nvim", -- optional
+    config = function()
+      require("scissors").setup ({
+        snippetDir = "~/.config/nvim/snippets",
+      })
+    end,
+  }
+
 end)
